@@ -23,9 +23,11 @@ body{
 	height: 550px; 
 	background-size: cover;
 }
+
 .nav-col{
 	background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
+
 .accordion-button:not(.collapsed) {
     color: black!important;
     background-color: #9fe292!important;
@@ -36,6 +38,27 @@ body{
 }
 .accordion-button:focus {
 	box-shadow: none!important;
+}
+.btn-radius-view{
+	border-color: #59a993 !important;
+	background-color: #59a993 !important;
+	border-radius: 30px !important;
+}
+.btn-radius-view:hover{
+	background-color: #4b9e93 !important;
+}
+.btn-radius{
+	padding-left: 19px !important;
+	padding-right: 19px !important;
+	border-color: #63b292 !important;
+	background-color: #63b292 !important;
+	border-radius: 30px !important;
+}
+.btn-radius:hover{
+	background-color: #8ed492 !important;
+}
+.nav-shadow{
+	box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
 }
 .accordion, .yt-channel, .card-style{
 	border-radius: 20px!important;
